@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        const dlugosc = parseFloat(prompt('podaj dlugosc trasy'));
+        const cena = parseFloat(prompt('podaj cene paliwa'));
+        const spalanie = parseFloat(prompt('podaj ile samochod spala na 100km'));
+        const wynik = (dlugosc / (spalanie * 100) ) * cena;
+    //1 * 100 / 6
+        document.write('koszt przejazdu wynosi ' + wynik);
+    </script>
+</body>
+</html>
